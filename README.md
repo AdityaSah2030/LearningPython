@@ -38,13 +38,14 @@ python 01_basics.py
 | 07  | `07_classes.py`         | Object-Oriented Programming (Classes & Objects) |
 | 08  | `08_files.py`           | File Handling (Reading, Writing) |
 | 09  | `09_exceptions.py`      | Exception Handling (Try-Except) |
+| 10  | `10_advanced_topics.py` | Advanced Python Concepts (Decorators, Generators) |
 
 ---
 
 ## 🛠️ Future Improvements
 - ✅ Add **detailed comments** in each program.
 - ✅ Add **unit test cases** for programs where applicable.
-- ✅ Include **advanced Python concepts** such as decorators and generators.
+- ✅ Include **further advanced Python topics** such as multithreading and async programming.
 
 ---
 
