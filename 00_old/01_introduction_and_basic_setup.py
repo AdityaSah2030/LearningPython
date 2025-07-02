@@ -29,9 +29,7 @@ print()  # Just a blank line for readability
 # We use the hash (#) symbol for single-line comments.
 
 """
-This is a multi-line string, often used for docstrings or 
-large comments that span multiple lines. You can also use 
-triple single-quotes (''') instead of triple double-quotes (""").
+This is a multi-line string, often used for docstrings or large comments that span multiple lines. You can also use triple single-quotes instead of triple double-quotes
 """
 
 print("=== PRINT STATEMENTS & COMMENTS ===")
