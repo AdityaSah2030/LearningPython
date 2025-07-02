@@ -5,7 +5,9 @@ This repository contains Python programs covering fundamental concepts such as v
 ---
 
 ## 📌 Prerequisites
+
 Before running these programs, ensure you have:
+
 - **Python 3+** installed.
 - A **code editor** like **VS Code**, **PyCharm**, or **Jupyter Notebook**.
 - **Python package manager** (`pip`) configured.
@@ -13,13 +15,16 @@ Before running these programs, ensure you have:
 ---
 
 ## 💝 Installation & Setup
+
 ### **🔹 Clone this repository**
+
 ```sh
 git clone https://github.com/AdityaSah2030/LearningPython.git
 cd LearningPython
 ```
 
 ### **🔹 Run a Python Program**
+
 ```sh
 python 01_basics.py
 ```
@@ -27,6 +32,7 @@ python 01_basics.py
 ---
 
 ## 📂 Program List
+
 | No. | File Name                  | Concept Covered |
 |---- |--------------------------- |---------------- |
 | 01  | `01_basics.py`           | Python Basics (Hello World, Variables, Data Types) |
@@ -43,6 +49,7 @@ python 01_basics.py
 ---
 
 ## 🛠️ Future Improvements
+
 - ✅ Add **detailed comments** in each program.
 - ✅ Add **unit test cases** for programs where applicable.
 - ✅ Include **further advanced Python topics** such as multithreading and async programming.
@@ -50,5 +57,5 @@ python 01_basics.py
 ---
 
 ## 💡 Contribution
-Feel free to submit **pull requests** or report issues to improve this repository! 😊
 
+Feel free to submit **pull requests** or report issues to improve this repository! 😊
