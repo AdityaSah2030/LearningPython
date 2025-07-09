@@ -8,7 +8,6 @@ def impure_chai(cups):
     global total_chai
     total_chai += cups
 
-
 def pour_chai(n):
     print(n)
     if n == 0:
@@ -17,10 +16,7 @@ def pour_chai(n):
 
 print(pour_chai(3))
 
-
-
 chai_types = ["light", "kadak", "ginger", "kadak"]
-
 
 strong_chai = list(filter(lambda chai: chai!="kadak", chai_types))
 

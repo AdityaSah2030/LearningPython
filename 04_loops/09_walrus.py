@@ -4,12 +4,10 @@
 # if remainder:
 #     print(f"Not divisible, remainder is {remainder}")
 
-
 value = 13
 
 if remainder := value % 5:
     print(f"Not divisible, remainder is {remainder}")
-
 
 # available_sizes = ["small", "medium", "large"]
 
@@ -17,8 +15,6 @@ if remainder := value % 5:
 #     print(f"Serving {requested_size} chai")
 # else:
 #     print(f"Size is unavailable - {requested_size}")
-
-
 
 flavors = ["masala", "ginger", "lemon", "mint"]
 

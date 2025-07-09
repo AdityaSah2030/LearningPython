@@ -3,5 +3,4 @@ def brew_chai(flavor):
         raise ValueError("Unsupported chai flavor...")
     print(f"brewing {flavor} chai...")
 
-
 brew_chai("mint")

@@ -12,7 +12,7 @@ class TeaLeaf:
             self._age = age
         else:
             raise ValueError("Tea leaf age must be between 1 and 5 years")
-        
+
 leaf = TeaLeaf(2)
 print(leaf.age)
 leaf.age = 6

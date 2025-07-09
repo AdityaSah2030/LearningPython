@@ -9,7 +9,6 @@ class MasalaChai(BaseChai):
     def add_spices(self):
         print("Adding cardamom, ginger, cloves.")
 
-
 class ChaiShop:
     chai_cls = BaseChai
 
@@ -22,7 +21,6 @@ class ChaiShop:
 
 class FancyChaiShop(ChaiShop):
     chai_cls = MasalaChai
-
 
 shop = ChaiShop()
 fancy = FancyChaiShop()

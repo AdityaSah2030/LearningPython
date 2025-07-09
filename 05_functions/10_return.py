@@ -26,7 +26,6 @@ def chai_status(cups_left):
 print(chai_status(0))
 print(chai_status(5))
 
-
 def chai_report():
     return 100, 20, 10 # sold, remaining
 

@@ -6,6 +6,5 @@ def front_desk():
         chai_type = "Irnai"
     kitchen()
 
-
 front_desk()
 print("Final global chai: ", chai_type)

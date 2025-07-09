@@ -11,6 +11,5 @@ def my_decorator(func):
 def greet():
     print("Hello from decorators class from chaicode")
 
-
 greet()
 print(greet.__name__)

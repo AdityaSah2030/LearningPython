@@ -13,5 +13,4 @@ def register_user():
     save_to_db()
     print("User registration complete")
 
-
 register_user()

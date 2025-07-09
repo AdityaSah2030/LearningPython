@@ -6,5 +6,4 @@ def make_chai(milk, sugar):
         raise OutOfIngredientsError("Missing milk or sugar")
     print("chai is ready...")
 
-
 make_chai(0, 1)

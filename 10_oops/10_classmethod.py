@@ -22,7 +22,6 @@ class ChaiUtils:
     def is_valid_size(size):
         return size in ["Small", "Medium", "Large"]
 
-
 print(ChaiUtils.is_valid_size("Medium"))
 
 order1 = ChaiOrder.from_dict({"tea_type": "masala", "sweetness": "medium", "size":"Large"})
