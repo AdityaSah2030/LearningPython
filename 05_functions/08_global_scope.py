@@ -7,4 +7,4 @@ def front_desk():
     kitchen()
 
 front_desk()
-print("Final global chai: ", chai_type)
+print("Final global chai:",chai_type)
