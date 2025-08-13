@@ -1,4 +1,4 @@
-kettle_boiled = False
+kettle_boiled = True
 
 if kettle_boiled:
-    print("Kellle Done! time to make Chai")
+    print("Kettle Done! time to make Chai")

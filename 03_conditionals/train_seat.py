@@ -1,4 +1,4 @@
-seat_type = input("Enter seat type (sleeper/AC/general/luxury)").lower()
+seat_type = input("Enter seat type (Sleeper/AC/General/Luxury)").lower()
 
 match seat_type:
     case "sleeper":
