@@ -14,9 +14,9 @@ print(f"Is sugar in the order? {'sugar' in chai_order}")
 
 chai_order = {"type": "Ginger Chai", "size": "Medium", "sugar": 1}
 
-# print(f"Order details (keys): {chai_order.keys()}")
-# print(f"Order details (values): {chai_order.values()}")
-# print(f"Order details (items): {chai_order.items()}")
+print(f"Order details (keys): {chai_order.keys()}")
+print(f"Order details (values): {chai_order.values()}")
+print(f"Order details (items): {chai_order.items()}")
 
 last_item = chai_order.popitem()
 print(f"Removed last item: {last_item}")
