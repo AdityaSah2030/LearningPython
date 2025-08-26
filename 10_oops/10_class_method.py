@@ -24,11 +24,11 @@ class ChaiUtils:
 
 print(ChaiUtils.is_valid_size("Medium"))
 
-order1 = ChaiOrder.from_dict({"tea_type": "masala", "sweetness": "medium", "size":"Large"})
+order1 = ChaiOrder("Large", "Low", "Large")
 
-order2 = ChaiOrder.from_string("Ginger-Low-Small")
+order2 = ChaiOrder.from_dict({"tea_type": "masala", "sweetness": "medium", "size":"Large"})
 
-order3 = ChaiOrder("Large", "Low", "Large")
+order3 = ChaiOrder.from_string("Ginger-Low-Small")
 
 print(order1.__dict__)
 print(order2.__dict__)

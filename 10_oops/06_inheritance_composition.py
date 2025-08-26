@@ -7,7 +7,7 @@ class BaseChai:
 
 class MasalaChai(BaseChai):
     def add_spices(self):
-        print("Adding cardamom, ginger, cloves.")
+        print("Adding Cardamom, Ginger, Cloves.")
 
 class ChaiShop:
     chai_cls = BaseChai
