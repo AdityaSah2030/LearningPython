@@ -10,7 +10,7 @@ def log_activity(func):
     return wrapper
 
 @log_activity
-def brew_chai(type, milk="no"):
-    print(f"Brewing {type} chai and milk status {milk}")
+def brew_chai(type, milk="NON-DAIRY"):
+    print(f"Brewing {type} Chai and Milk Status: {milk}")
 
 brew_chai("Masala")

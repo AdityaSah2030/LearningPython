@@ -12,7 +12,7 @@ def require_admin(func):
 
 @require_admin
 def acess_tea_inventory(role):
-    print("Access granted to tea inventory")
+    print("Access Granted to Tea Inventory")
 
 acess_tea_inventory("user")
 acess_tea_inventory("admin")
