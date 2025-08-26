@@ -1,3 +1,4 @@
+# generator function
 def serve_chai():
     yield "Cup 1: Masala Chai"
     yield "Cup 2: Ginger Chai"
@@ -5,20 +6,17 @@ def serve_chai():
 
 stall = serve_chai()
 
-# for cup in stall:
-#     print(cup)
+for cup in stall:
+    print(cup)
 
-def get_chai_list():
-    return ["Cup 1", "Cup 2", "Cup 3"]
+# Cup 1: Masala Chai
+# Cup 2: Ginger Chai
+# Cup 3: Elaichi Chai
 
-# generator function
-def get_chai_gen():
-    yield "Cup 1"
-    yield "Cup 2"
-    yield "Cup 3"
 
-chai = get_chai_gen()
-print(next(chai))
-print(next(chai))
-print(next(chai))
-# print(next(chai)) # gives error
+chai = serve_chai()
+
+print(next(chai))   # Cup 1: Masala Chai
+print(next(chai))   # Cup 2: Ginger Chai
+print(next(chai))   # Cup 3: Elaichi Chai
+# print(next(chai)) # Gives error
