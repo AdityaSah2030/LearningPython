@@ -8,7 +8,7 @@ def bill(flavor, cups):
         if not isinstance(cups, int):
             raise TypeError("Number of cups must be an integer")
         total = menu[flavor] * cups
-        print(f"Your bill for {cups} cups of {flavor} chai: rupees {total}")
+        print(f"Your bill for {cups} cups of {flavor} chai: Rs.{total}")
     except Exception as e:
         print("Error: ", e)
     finally:

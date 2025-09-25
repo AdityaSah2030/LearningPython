@@ -1,6 +1,6 @@
 def brew_chai(flavor):
-    if flavor not in ["masala", "ginger", "elaichai"]:
-        raise ValueError("Unsupported chai flavor...")
-    print(f"brewing {flavor} chai...")
+    if flavor not in ["Masala", "Ginger", "Elaichi"]:
+        raise ValueError("Unsupported Chai Flavor")
+    print(f"Brewing {flavor} Chai...")
 
-brew_chai("mint")
+brew_chai("Mint")
